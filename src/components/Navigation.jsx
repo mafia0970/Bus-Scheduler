@@ -2,9 +2,9 @@ import "../components/Style/Navigation.css";
 function Navigation() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary Navigation">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary Navigation main">
         <div className="container-fluid Navigation">
-          <a className="navbar-brand Navigation " href="#">
+          <a className="navbar-brand Navigation " href="#Home">
             BusScheduler
           </a>
           <button
@@ -21,19 +21,19 @@ function Navigation() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="#Home">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#Check_Duties">
                   Check Duties
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className="nav-link "
-                  href="#"
+                  href="#About"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
